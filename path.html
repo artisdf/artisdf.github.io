@@ -3,7 +3,28 @@
 <head>
     <meta charset="UTF-8">
 </head>
-<main>
+<body>
+    <header class="navbar" role="banner">
+      <ul class="navbar-list">
+        <li>
+          <a href="#" aria-label="Home">
+            <img src="images/logo.png" alt="Logo" class="navbar-logo" />
+          </a>
+        </li>
+        <div class="navbar-center">
+          <li class="navbar-item">
+            <a href="index.html" class="nav-link">Sākums</a>
+          </li>
+          <li class="navbar-item">
+            <a href="path.html" class="nav-link">Ceļš</a>
+          </li>
+        </div>
+      </ul>
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+      </button>
+    </header>
+    <main>
   	<section class="content-section" id="section1">
         <div class="content-text">
           <h2>SECTION 1 TITLE</h2>
@@ -267,4 +288,5 @@
           </div>
         </div>
       </section>
-</main>
+    </main>
+</body>   

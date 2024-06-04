@@ -1,292 +1,185 @@
 <!DOCTYPE HTML>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-</head>
+<html lang="lv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mans ceļš uz Latvijas Universitāti</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 <body>
-    <header class="navbar" role="banner">
-      <ul class="navbar-list">
-        <li>
-          <a href="#" aria-label="Home">
-            <img src="images/logo.png" alt="Logo" class="navbar-logo" />
-          </a>
-        </li>
-        <div class="navbar-center">
-          <li class="navbar-item">
-            <a href="index.html" class="nav-link">Sākums</a>
-          </li>
-          <li class="navbar-item">
-            <a href="path.html" class="nav-link">Ceļš</a>
-          </li>
-        </div>
-      </ul>
-      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
-        <i class="fas fa-moon"></i>
-      </button>
-    </header>
+  <nav>
+    <img src="images/balts logo.png" alt="Logo" class="logo" />
+    <ul>
+      <li><a href="index.html" class="nav-link">Sākums</a></li>
+      <li><a href="path.html" class="nav-link">Ceļš</a></li>
+    </ul>
+    <div class="theme-switch">
+      <img src="images/light mode.png" alt="Theme Icon" id="theme-icon" class="theme-switch"/>
+    </div>
+  </nav>
     <main>
-  	<section class="content-section" id="section1">
-        <div class="content-text">
-          <h2>SECTION 1 TITLE</h2>
+  	
+      <section id="section1" class="content-section">
+        <div class="text-content">
+          <h2>Sadaļa 1 virsraksts</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non
-            varius ex. Sed elementum lectus sapien, quis feugiat nisi varius
-            eget. Cras sed ullamcorper nisi. Mauris eu velit commodo, rutrum
-            lectus ac, dapibus sem.
+            Sed turpis lectus, tincidunt ut commodo tempus, pulvinar sed purus.
+            Donec ullamcorper velit ut turpis ornare malesuada. Class aptent
+            taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+            himenaeos.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non
-            varius ex. Sed elementum lectus sapien, quis feugiat nisi varius
-            eget. Cras sed ullamcorper nisi. Mauris eu velit commodo, rutrum
-            lectus ac, dapibus sem.
-          </p>
-        </div>
-        <div class="content-images">
-          <div class="image-row">
-            <img
-              src="images/station.png"
-              alt="Image 1"
-              class="content-image large-image"
-            />
-          </div>
-          <div class="image-row">
-            <img
-              src="images/theater.png"
-              alt="Image 2"
-              class="content-image small-image"
-            />
-            <img
-              src="images/music-house.png"
-              alt="Image 3"
-              class="content-image small-image"
-            />
-          </div>
-        </div>
-        <a
-          href="#section2"
-          class="scroll-down"
-          aria-label="Scroll down to section 2"
-        >
-          <i class="fas fa-chevron-down"></i>
-        </a>
-      </section>
-      <section class="content-section" id="section2">
-        <div class="content-text">
-          <h2>SECTION 2 TITLE</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non
-            varius ex. Sed elementum lectus sapien, quis feugiat nisi varius
-            eget. Cras sed ullamcorper nisi. Mauris eu velit commodo, rutrum
-            lectus ac, dapibus sem.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non
-            varius ex. Sed elementum lectus sapien, quis feugiat nisi varius
-            eget. Cras sed ullamcorper nisi. Mauris eu velit commodo, rutrum
-            lectus ac, dapibus sem.
+            Vestibulum sagittis ut nibh ut tristique. Aenean posuere turpis in
+            eros euismod laoreet. Nulla a libero porta mauris porta interdum eget
+            nec sapien.
           </p>
         </div>
-        <div class="content-images">
-          <div class="image-row">
-            <img
-              src="images/station.png"
-              alt="Image 1"
-              class="content-image large-image"
-            />
-          </div>
-          <div class="image-row">
-            <img
-              src="images/theater.png"
-              alt="Image 2"
-              class="content-image small-image"
-            />
-            <img
-              src="images/music-house.png"
-              alt="Image 3"
-              class="content-image small-image"
-            />
-          </div>
-        </div>
-        <a
-          href="#section3"
-          class="scroll-down"
-          aria-label="Scroll down to section 3"
-        >
-          <i class="fas fa-chevron-down"></i>
-        </a>
-      </section>
-      <section class="content-section" id="section3">
-        <div class="content-text">
-          <h2>SECTION 3 TITLE</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non
-            varius ex. Sed elementum lectus sapien, quis feugiat nisi varius
-            eget. Cras sed ullamcorper nisi. Mauris eu velit commodo, rutrum
-            lectus ac, dapibus sem.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non
-            varius ex. Sed elementum lectus sapien, quis feugiat nisi varius
-            eget. Cras sed ullamcorper nisi. Mauris eu velit commodo, rutrum
-            lectus ac, dapibus sem.
-          </p>
-        </div>
-        <div class="content-images">
-          <div class="image-row">
-            <img
-              src="images/station.png"
-              alt="Image 1"
-              class="content-image large-image"
-            />
-          </div>
-          <div class="image-row">
-            <img
-              src="images/theater.png"
-              alt="Image 2"
-              class="content-image small-image"
-            />
-            <img
-              src="images/music-house.png"
-              alt="Image 3"
-              class="content-image small-image"
-            />
-          </div>
-        </div>
-        <a
-          href="#section4"
-          class="scroll-down"
-          aria-label="Scroll down to section 4"
-        >
-          <i class="fas fa-chevron-down"></i>
-        </a>
-      </section>
-      <section class="content-section" id="section4">
-        <div class="content-text">
-          <h2>SECTION 4 TITLE</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non
-            varius ex. Sed elementum lectus sapien, quis feugiat nisi varius
-            eget. Cras sed ullamcorper nisi. Mauris eu velit commodo, rutrum
-            lectus ac, dapibus sem.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non
-            varius ex. Sed elementum lectus sapien, quis feugiat nisi varius
-            eget. Cras sed ullamcorper nisi. Mauris eu velit commodo, rutrum
-            lectus ac, dapibus sem.
-          </p>
-        </div>
-        <div class="content-images">
-          <div class="image-row">
-            <img
-              src="images/station.png"
-              alt="Image 1"
-              class="content-image large-image"
-            />
-          </div>
-          <div class="image-row">
-            <img
-              src="images/theater.png"
-              alt="Image 2"
-              class="content-image small-image"
-            />
-            <img
-              src="images/music-house.png"
-              alt="Image 3"
-              class="content-image small-image"
-            />
-          </div>
-        </div>
-        <a
-          href="#section5"
-          class="scroll-down"
-          aria-label="Scroll down to section 5"
-        >
-          <i class="fas fa-chevron-down"></i>
-        </a>
-      </section>
-      <section class="content-section" id="section5">
-        <div class="content-text">
-          <h2>SECTION 5 TITLE</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non
-            varius ex. Sed elementum lectus sapien, quis feugiat nisi varius
-            eget. Cras sed ullamcorper nisi. Mauris eu velit commodo, rutrum
-            lectus ac, dapibus sem.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non
-            varius ex. Sed elementum lectus sapien, quis feugiat nisi varius
-            eget. Cras sed ullamcorper nisi. Mauris eu velit commodo, rutrum
-            lectus ac, dapibus sem.
-          </p>
-        </div>
-        <div class="content-images">
-          <div class="image-row">
-            <img
-              src="images/station.png"
-              alt="Image 1"
-              class="content-image large-image"
-            />
-          </div>
-          <div class="image-row">
-            <img
-              src="images/theater.png"
-              alt="Image 2"
-              class="content-image small-image"
-            />
-            <img
-              src="images/music-house.png"
-              alt="Image 3"
-              class="content-image small-image"
-            />
-          </div>
-        </div>
-        <a
-          href="#section6"
-          class="scroll-down"
-          aria-label="Scroll down to section 6"
-        >
-          <i class="fas fa-chevron-down"></i>
-        </a>
-      </section>
-      <section class="content-section" id="section6">
-        <div class="content-text">
-          <h2>SECTION 6 TITLE</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non
-            varius ex. Sed elementum lectus sapien, quis feugiat nisi varius
-            eget. Cras sed ullamcorper nisi. Mauris eu velit commodo, rutrum
-            lectus ac, dapibus sem.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non
-            varius ex. Sed elementum lectus sapien, quis feugiat nisi varius
-            eget. Cras sed ullamcorper nisi. Mauris eu velit commodo, rutrum
-            lectus ac, dapibus sem.
-          </p>
-        </div>
-        <div class="content-images">
-          <div class="image-row">
-            <img
-              src="images/station.png"
-              alt="Image 1"
-              class="content-image large-image"
-            />
-          </div>
-          <div class="image-row">
-            <img
-              src="images/theater.png"
-              alt="Image 2"
-              class="content-image small-image"
-            />
-            <img
-              src="images/music-house.png"
-              alt="Image 3"
-              class="content-image small-image"
-            />
-          </div>
+        <div class="images">
+          <img src="images/image1.jpg" alt="Attēls 1" class="large-image" />
+          <img src="images/image2.jpg" alt="Attēls 2" class="small-image" />
+          <img src="images/image3.jpg" alt="Attēls 3" class="small-image" />
         </div>
       </section>
+  
+      <section id="section2" class="content-section reverse">
+        <div class="text-content">
+          <h2>Sadaļa 2 virsraksts</h2>
+          <p>
+            Sed turpis lectus, tincidunt ut commodo tempus, pulvinar sed purus.
+            Donec ullamcorper velit ut turpis ornare malesuada. Class aptent
+            taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+            himenaeos.
+          </p>
+          <p>
+            Vestibulum sagittis ut nibh ut tristique. Aenean posuere turpis in
+            eros euismod laoreet. Nulla a libero porta mauris porta interdum eget
+            nec sapien.
+          </p>
+        </div>
+        <div class="images">
+          <img src="images/image1.jpg" alt="Attēls 1" class="large-image" />
+          <img src="images/image2.jpg" alt="Attēls 2" class="small-image" />
+          <img src="images/image3.jpg" alt="Attēls 3" class="small-image" />
+        </div>
+      </section>
+  
+      <section id="section3" class="content-section">
+        <div class="text-content">
+          <h2>Sadaļa 3 virsraksts</h2>
+          <p>
+            Sed turpis lectus, tincidunt ut commodo tempus, pulvinar sed purus.
+            Donec ullamcorper velit ut turpis ornare malesuada. Class aptent
+            taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+            himenaeos.
+          </p>
+          <p>
+            Vestibulum sagittis ut nibh ut tristique. Aenean posuere turpis in
+            eros euismod laoreet. Nulla a libero porta mauris porta interdum eget
+            nec sapien.
+          </p>
+        </div>
+        <div class="images">
+          <img src="images/image1.jpg" alt="Attēls 1" class="large-image" />
+          <img src="images/image2.jpg" alt="Attēls 2" class="small-image" />
+          <img src="images/image3.jpg" alt="Attēls 3" class="small-image" />
+        </div>
+      </section>
+  
+      <section id="section4" class="content-section reverse">
+        <div class="text-content">
+          <h2>Sadaļa 4 virsraksts</h2>
+          <p>
+            Sed turpis lectus, tincidunt ut commodo tempus, pulvinar sed purus.
+            Donec ullamcorper velit ut turpis ornare malesuada. Class aptent
+            taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+            himenaeos.
+          </p>
+          <p>
+            Vestibulum sagittis ut nibh ut tristique. Aenean posuere turpis in
+            eros euismod laoreet. Nulla a libero porta mauris porta interdum eget
+            nec sapien.
+          </p>
+        </div>
+        <div class="images">
+          <img src="images/image1.jpg" alt="Attēls 1" class="large-image" />
+          <img src="images/image2.jpg" alt="Attēls 2" class="small-image" />
+          <img src="images/image3.jpg" alt="Attēls 3" class="small-image" />
+        </div>
+      </section>
+  
+      <section id="section5" class="content-section">
+        <div class="text-content">
+          <h2>Sadaļa 5 virsraksts</h2>
+          <p>
+            Sed turpis lectus, tincidunt ut commodo tempus, pulvinar sed purus.
+            Donec ullamcorper velit ut turpis ornare malesuada. Class aptent
+            taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+            himenaeos.
+          </p>
+          <p>
+            Vestibulum sagittis ut nibh ut tristique. Aenean posuere turpis in
+            eros euismod laoreet. Nulla a libero porta mauris porta interdum eget
+            nec sapien.
+          </p>
+        </div>
+        <div class="images">
+          <img src="images/image1.jpg" alt="Attēls 1" class="large-image" />
+          <img src="images/image2.jpg" alt="Attēls 2" class="small-image" />
+          <img src="images/image3.jpg" alt="Attēls 3" class="small-image" />
+        </div>
+      </section>
+  
+      <section id="section6" class="content-section reverse">
+        <div class="text-content">
+          <h2>Sadaļa 6 virsraksts</h2>
+          <p>
+            Sed turpis lectus, tincidunt ut commodo tempus, pulvinar sed purus.
+            Donec ullamcorper velit ut turpis ornare malesuada. Class aptent
+            taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+            himenaeos.
+          </p>
+          <p>
+            Vestibulum sagittis ut nibh ut tristique. Aenean posuere turpis in
+            eros euismod laoreet. Nulla a libero porta mauris porta interdum eget
+            nec sapien.
+          </p>
+        </div>
+        <div class="images">
+          <img src="images/image1.jpg" alt="Attēls 1" class="large-image" />
+          <img src="images/image2.jpg" alt="Attēls 2" class="small-image" />
+          <img src="images/image3.jpg" alt="Attēls 3" class="small-image" />
+        </div>
+      </section>
+  
+      <section id="section7" class="content-section">
+        <div class="text-content">
+          <h2>Sadaļa 7 virsraksts</h2>
+          <p>
+            Sed turpis lectus, tincidunt ut commodo tempus, pulvinar sed purus.
+            Donec ullamcorper velit ut turpis ornare malesuada. Class aptent
+            taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+            himenaeos.
+          </p>
+          <p>
+            Vestibulum sagittis ut nibh ut tristique. Aenean posuere turpis in
+            eros euismod laoreet. Nulla a libero porta mauris porta interdum eget
+            nec sapien.
+          </p>
+        </div>
+        <div class="images">
+          <img src="images/image1.jpg" alt="Attēls 1" class="large-image" />
+          <img src="images/image2.jpg" alt="Attēls 2" class="small-image" />
+          <img src="images/image3.jpg" alt="Attēls 3" class="small-image" />
+        </div>
+      </section>
+      <script src="script.js"></script>
     </main>
 </body>   

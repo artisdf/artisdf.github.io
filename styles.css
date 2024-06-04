@@ -208,8 +208,6 @@ section p {
   justify-content: space-between;
   padding: 60px 100px;
   text-align: left;
-  box-shadow: 0 4px 4px -2px rgba(27, 80, 137, 0.4),
-    0 6px 8px 0 rgba(27, 80, 137, 0.6), 0 10px 10px 0 rgba(27, 80, 137, 0.8);
 }
 
 .content-section.reverse {
@@ -280,6 +278,10 @@ body.dark-mode .content-section.reverse .images {
 
 .small-image:hover {
   transform: scale(1.02);
+}
+
+.flip-horizontal{
+  transform: scaleX(-1);
 }
 
 /* Responsive Navigation */

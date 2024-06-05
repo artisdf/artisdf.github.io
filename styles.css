@@ -293,7 +293,7 @@ body.dark-mode .image-ground-r{
   #section1{
     padding-top: 3vh;
   }
-  
+
   nav .theme-switch {
     right: 15px;
   }
@@ -334,7 +334,7 @@ body.dark-mode .image-ground-r{
     text-align: center;
     height: auto;
     margin-top: 20px;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
   
   .image-container {

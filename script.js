@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const mainLogo = document.getElementById("main-logo");
   const themeIcon = document.getElementById("theme-icon");
   const body = document.body;
+  const html = document.html;
 
   // Function to toggle dark mode
   const toggleDarkMode = () => {

@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const arrow5 = document.getElementById("arrow5");
   const arrow6 = document.getElementById("arrow6");
   const body = document.body;
+  const html = document.html;
   // Function to toggle dark mode
   const toggleDarkMode = () => {
     body.classList.toggle("dark-mode");

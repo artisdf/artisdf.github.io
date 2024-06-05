@@ -189,6 +189,10 @@ section p {
   margin-bottom: 20px;
 }
 
+.image-ground {
+  max-height: 80vh;
+}
+
 .images img {
   margin: 10px;
   max-width: 100%;
@@ -203,11 +207,46 @@ section p {
 }
 
 .content-section {
+  height: 93vh; /* Maintain the height */
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  padding: 60px 100px;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  padding: 0 100px; /* Reduce top and bottom padding */
   text-align: left;
+}
+
+.image-container {
+  flex: 0 0 35%; /* Set width of the container to 50% */
+  display: flex;
+  justify-content: flex-end; /* Align items to the end (right side) */
+  margin-right: 40px;
+}
+
+.text-content {
+  align-items: center;
+  flex: 0 0 35%; /* Set width of the text container to 50% */
+}
+
+.text-content h2 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.text-content p {
+  margin-bottom: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+  text-align: left;
+}
+
+.arrow-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow {
+  flex: 0 0 30%;
 }
 
 .content-section.reverse {
@@ -218,20 +257,7 @@ section p {
   margin-left: 60px;
 }
 
-.text-content {
-  flex: 1;
-  align-self: flex-start;
-}
 
-.text-content h2 {
-  margin-bottom: 10px;
-}
-
-.text-content p {
-  margin-bottom: 20px;
-  margin-right: 20px;
-  text-align: left;
-}
 
 .content-section.reverse .text-content p {
   margin-right: 0px;
